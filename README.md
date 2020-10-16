@@ -42,7 +42,7 @@ Filter dengan `http contains "Authorization: Basic"`
 
 ### 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 - ZIP: Filter dengan `ftp contains "Answer.zip`, dapatkan responnya dengan membuka command response frame. Follow TCP stream dan simpan dalam bentuk raw.
-- Password : Filter dengan `ftp contains "zipkey.txt"`, dapatkan responnta dengan membuka command response frame. Password ada di Line-based text data.
+- Password : Filter dengan `ftp contains "zipkey.txt"`, dapatkan responnya dengan membuka command response frame. Password ada di Line-based text data.
 
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96208975-d3ee7d80-0f98-11eb-91ae-9fa7c20feadc.png">
 
