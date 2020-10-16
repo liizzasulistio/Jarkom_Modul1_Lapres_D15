@@ -5,6 +5,11 @@ Praktikum mata kuliah Jaringan Komputer Informatika ITS 2020 Kelompok D15
 
 ## A. Display Filter
 ### 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me", dapatkan webserver yang digunakan di Header.
+Follow request ke testing.mekanis.me dengan `http.host == "testing.mekanis.me"`
+Jawaban `nginx/1.14.0(Ubuntu)`
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96201512-fa0b2200-0f86-11eb-95eb-4a59e7b7c1ed.png">
+
+
 ### 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"! Gunakan File > Export Objects > HTTP, Save All, cari file Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg.
 ### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 ### 4. Temukan paket dari web-web yang menggunakan basic authentication method! Filter dengan http contains "Authorization: Basic"
