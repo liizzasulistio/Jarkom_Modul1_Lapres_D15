@@ -3,6 +3,8 @@ Praktikum mata kuliah Jaringan Komputer Informatika ITS 2020 Kelompok D15
 - Ammar Alifian Fahdan (05111840000007)
 - Lii'zza Aisyah Putri Sulistio (05111840000073)
 
+Kendala: terjadi kegagalan dalam mengunduh file .pcapng sampai beberapa kali
+
 ## A. Display Filter
 ### 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me", dapatkan webserver yang digunakan di Header.
 - Follow request ke testing.mekanis.me dengan `http.host == "testing.mekanis.me"`
