@@ -27,7 +27,19 @@ Gunakan File &#8594; Export Objects &#8594; HTTP, Save All, cari file Tim_Kunjun
 
 
 ### 4. Temukan paket dari web-web yang menggunakan basic authentication method! Filter dengan http contains "Authorization: Basic"
+Filter dengan `http contains "Authorization: Basic"`
+
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96202957-dba72580-0f8a-11eb-9a79-ae3daa5ef86d.png">
+
+
 ### 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
+- Filter dengan `http contains "aku.pengen.pw"`
+- Username dan password bisa didapatkan di header Authorization
+
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96203065-21fc8480-0f8b-11eb-9ce1-c2a62f6dfacc.png">
+
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96203088-2fb20a00-0f8b-11eb-8551-be9f9003cb4b.png">
+
 ### 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 ### 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
