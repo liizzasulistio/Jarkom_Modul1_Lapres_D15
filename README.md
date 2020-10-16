@@ -117,6 +117,7 @@ Filter dengan `src net 192.168.43.240`
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 Filter dengan `dst host monta.if.its.ac.id`
+
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96209989-25980780-0f9b-11eb-8ff5-aee245b84338.png">
 
 <img width="451" alt="image" src="https://user-images.githubusercontent.com/58472359/96209995-27fa6180-0f9b-11eb-9225-2c49720188b0.png">
